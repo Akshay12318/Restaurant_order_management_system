@@ -62,7 +62,7 @@ class RMS:
             pass
 
     def thank_user(self):
-        print('Thank you for visiting Mcdonalds')
+        print('Thank you for visiting Haldiram')
 
     def order_process(self):
         self.welcome_user()
@@ -75,10 +75,7 @@ class RMS:
     def bill(self):
         self.display_bill()
         self.take_payment()
-        print(self.list1)
         self.thank_user()
 
 mcd=RMS(rn,rm)
-# hd=RMS(rn,rm)
-# hd.order_process()
 mcd.order_process()
