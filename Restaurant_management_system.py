@@ -15,7 +15,6 @@ class RMS:
 
     def welcome_user(self):
         print('Welcome to', self.rest_name)
-        print("Hi ")
 
     def display_menu(self):
         for i in self.menu:
@@ -80,3 +79,4 @@ class RMS:
 
 mcd=RMS(rn,rm)
 mcd.order_process()
+
